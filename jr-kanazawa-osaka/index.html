@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金沢〜大阪 北陸乗継チケットレス移動ガイド | 藤井家兄弟</title>
+    <style>
+        :root {
+            --jr-blue: #005696;
+            --accent-orange: #f39c12;
+            --bg-gray: #f4f7f6;
+        }
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--bg-gray);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--jr-blue);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-left: 5px solid var(--jr-blue);
+            padding-left: 10px;
+            color: var(--jr-blue);
+            margin-top: 30px;
+        }
+        .step-img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .warning {
+            background-color: #fff3f3;
+            border: 2px solid #e74c3c;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .warning h3 {
+            color: #e74c3c;
+            margin-top: 0;
+        }
+        .icoca-card {
+            background: #e1f5fe;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>金沢 ➔ 大阪<br>チケットレス移動ガイド</h1>
+    <p>リポジトリ：藤井家兄弟 監修</p>
+</header>
+
+<div class="container">
+    <p>知人4人でスムーズに移動するための完全マニュアルです。代表者の方はこの手順に沿って予約をお願いします。</p>
+
+    <h2>1. 事前準備（全員）</h2>
+    <p>代表者に以下の<strong>ICOCA番号（17桁）</strong>を伝えてください。</p>
+    <ul>
+        <li>カードタイプ：裏面右下の「JW...」から始まる番号</li>
+        <li>モバイル/Apple Pay：アプリ内のカード詳細画面を参照</li>
+    </ul>
+    <img src="images/icoca_sample.jpg" alt="ICOCA番号の確認方法" class="step-img" onerror="this.src='https://placehold.jp/24/cccccc/ffffff/400x200.png?text=スマホ画面：ICOCA番号確認イメージ'">
+
+    <h2>2. 予約と紐付け（代表者）</h2>
+    <p>e5489で<strong>「北陸乗継チケットレス」</strong>を4名分予約します。</p>
+    <div class="icoca-card">
+        決済後、必ず「予約の確認」から<br>各座席に全員のICOCA番号を登録！
+    </div>
+    <img src="images/e5489_setup.jpg" alt="e5489紐付け画面" class="step-img" onerror="this.src='https://placehold.jp/24/cccccc/ffffff/400x200.png?text=スマホ画面：座席へのIC番号入力イメージ'">
+
+    <h2>3. 当日の乗り方</h2>
+    <p>各自のICOCAを改札にタッチするだけ！</p>
+    <ol>
+        <li><strong>金沢駅</strong>：新幹線改札をタッチ</li>
+        <li><strong>敦賀駅</strong>：乗換改札をタッチ（重要）</li>
+        <li><strong>大阪駅</strong>：出口改札をタッチ</li>
+    </ol>
+    <img src="images/gate_touch.jpg" alt="改札タッチ" class="step-img" onerror="this.src='https://placehold.jp/24/cccccc/ffffff/400x200.png?text=改札タッチのイメージ'">
+
+    <div class="warning">
+        <h3>⚠️ 必須チェック：残高不足に注意！</h3>
+        <p>この予約は<strong>「特急券のみ」</strong>です。乗車券代（運賃）は当日、各個人のICOCA残高から自動で引き落とされます。</p>
+        <p><strong>目安：1人あたり 5,000円以上</strong>を事前にチャージしておいてください！</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 藤井家兄弟 - GitHub Repository</p>
+</footer>
+
+</body>
+</html>
